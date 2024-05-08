@@ -1,3 +1,4 @@
+-- =========== Task 1. Creating tables ===========
 -- CREATE TABLE games (
 --     id INTEGER PRIMARY KEY,
 --     title TEXT,
@@ -13,7 +14,7 @@
 --     rating FLOAT,
 --     studio TEXT
 -- );
-
+-- =========== Task 2. Adding values ===========
 -- INSERT INTO games
 --   (id,title,year,rating,studio)
 -- VALUES (1, 'Grand Theft Auto V', 2013, 4.8, 'Rockstar Games'),
@@ -53,3 +54,9 @@
 --   ) VALUES
 --   ('Sports'),
 --   ('Politics');
+
+-- SELECT 
+--     first_name,
+--     email
+-- FROM users
+-- WHERE created_at > '2022-06-30' AND created_at < '2022-08-01' AND email NOT SIMILAR TO '%@%.%'
