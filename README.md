@@ -3,3 +3,5 @@
 SQLite database made for Hexlet College practice for students.
 This repository contains my solutions to practical problems in the course. The solutions have been tested and are correct.
 
+## Content:
+- Creating tables
