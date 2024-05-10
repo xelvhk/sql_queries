@@ -42,9 +42,14 @@
 -- (1,'New Year','2024-12-31','23:59:59.00','SPB','Description'),
 -- (2,'Christmas','2024-12-25','23:59:59.00','SPB','Description');
 
-
 -- SELECT 
 --     first_name,
 --     email
 -- FROM users
 -- WHERE created_at > '2022-06-30' AND created_at < '2022-08-01' AND email NOT SIMILAR TO '%@%.%'
+
+-- SELECT 
+--     first_name,
+--     email
+-- FROM users
+-- WHERE telephone NOT SIMILAR TO '[0-9]{3}'
