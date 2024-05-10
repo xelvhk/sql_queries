@@ -28,9 +28,7 @@
 --   (9, 'NBA 2K22', 2020, 4.7, '2K Sports'),
 --   (10, 'Fortnite', 2017, 4.7, 'Epic Games');
 
--- SELECT * FROM games
--- WHERE studio = 'Rockstar Games';
-
+-- =========== Task 3. Date and time types ===========
 -- CREATE TABLE IF NOT EXISTS events (
 --   id INTEGER PRIMARY KEY,
 --   name VARCHAR(50),
@@ -44,16 +42,6 @@
 -- (1,'New Year','2024-12-31','23:59:59.00','SPB','Description'),
 -- (2,'Christmas','2024-12-25','23:59:59.00','SPB','Description');
 
--- CREATE TABLE article_categories (
---     id BIGINT GENERATED ALWAYS AS IDENTITY,
---     name TEXT
--- );
-
--- INSERT INTO article_categories (
---   name
---   ) VALUES
---   ('Sports'),
---   ('Politics');
 
 -- SELECT 
 --     first_name,
