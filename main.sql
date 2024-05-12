@@ -62,3 +62,9 @@
 -- FROM staff
 -- WHERE department = 'sales'
 -- ORDER BY first_name ASC, salary DESC;
+
+
+-- SELECT first_name
+-- FROM users
+-- WHERE birthday < '2002-10-03'
+-- ORDER BY first_name ASC LIMIT 3 OFFSET 2
