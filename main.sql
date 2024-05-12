@@ -53,3 +53,5 @@
 --     email
 -- FROM users
 -- WHERE telephone NOT SIMILAR TO '[0-9]{3}'
+
+-- SELECT title FROM articles WHERE creator_id IN (1, 4);
