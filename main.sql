@@ -55,3 +55,10 @@
 -- WHERE telephone NOT SIMILAR TO '[0-9]{3}'
 
 -- SELECT title FROM articles WHERE creator_id IN (1, 4);
+
+-- SELECT first_name,
+-- last_name,
+-- salary
+-- FROM staff
+-- WHERE department = 'sales'
+-- ORDER BY first_name ASC, salary DESC;
