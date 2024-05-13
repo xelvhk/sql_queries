@@ -74,3 +74,12 @@
 -- GROUP BY buyer_id
 -- HAVING COUNT(product) >= 2
 -- ORDER BY total_price DESC
+
+-- INSERT INTO students_progress
+-- (first_name,last_name,faculty,grade)
+-- VALUES
+-- ('Oliver','Doblin','A',93),
+-- ('Perry','Fensome','B',54);
+
+-- DELETE FROM students_progress
+-- WHERE faculty = 'C' AND grade < 20;
