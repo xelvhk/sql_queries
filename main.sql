@@ -75,6 +75,7 @@
 -- HAVING COUNT(product) >= 2
 -- ORDER BY total_price DESC
 
+--=================
 -- INSERT INTO students_progress
 -- (first_name,last_name,faculty,grade)
 -- VALUES
@@ -83,3 +84,20 @@
 
 -- DELETE FROM students_progress
 -- WHERE faculty = 'C' AND grade < 20;
+
+--===========
+-- ALTER TABLE users 
+--    ADD UNIQUE (email);
+
+-- ALTER TABLE users
+--     RENAME COLUMN name TO first_name;
+
+-- ALTER TABLE users
+--     ALTER COLUMN first_name SET NOT NULL;
+
+-- ALTER TABLE users
+--     ADD COLUMN created_at TIMESTAMP;
+
+-- ALTER TABLE users
+--     DROP COLUMN age;
+
