@@ -68,3 +68,9 @@
 -- FROM users
 -- WHERE birthday < '2002-10-03'
 -- ORDER BY first_name ASC LIMIT 3 OFFSET 2
+
+-- SELECT buyer_id, COUNT(product) AS orders_count, SUM(price) AS total_price
+-- FROM orders
+-- GROUP BY buyer_id
+-- HAVING COUNT(product) >= 2
+-- ORDER BY total_price DESC
