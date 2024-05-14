@@ -101,3 +101,25 @@
 -- ALTER TABLE users
 --     DROP COLUMN age;
 
+
+--============== Adding from other table ================
+-- CREATE TABLE IF NOT EXISTS users (
+--     id BIGINT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+--     name VARCHAR(50)
+-- );
+
+-- INSERT INTO users
+-- (name)
+-- VALUES
+-- ('Tom');
+
+-- CREATE TABLE IF NOT EXISTS cars (
+--     id BIGINT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+--     user_id BIGINT NOT NULL,
+--     model VARCHAR(50)
+-- );
+
+-- INSERT INTO cars
+-- (user_id, model)
+-- VALUES ((SELECT id FROM users WHERE name = 'Tom'), 'Tesla Cybertruck'),
+-- ((SELECT id FROM users WHERE name = 'Tom'), 'Toyota Corolla');
