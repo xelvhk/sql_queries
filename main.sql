@@ -123,3 +123,18 @@
 -- (user_id, model)
 -- VALUES ((SELECT id FROM users WHERE name = 'Tom'), 'Tesla Cybertruck'),
 -- ((SELECT id FROM users WHERE name = 'Tom'), 'Toyota Corolla');
+
+===== CTE ====
+-- WITH actor_films AS (
+--     SELECT
+--         actor_id,
+--         COUNT(DISTINCT genre) AS genre_count
+--     FROM films
+--     GROUP BY actor_id
+-- )
+
+-- SELECT actors.full_name AS actor
+-- FROM actors
+-- INNER JOIN actor_films ON actors.id = actor_films.actor_id
+-- WHERE actor_films.genre_count >= 2
+-- ORDER BY actors.full_name;
