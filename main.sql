@@ -124,7 +124,7 @@
 -- VALUES ((SELECT id FROM users WHERE name = 'Tom'), 'Tesla Cybertruck'),
 -- ((SELECT id FROM users WHERE name = 'Tom'), 'Toyota Corolla');
 
-===== CTE ====
+--===== CTE ====
 -- WITH actor_films AS (
 --     SELECT
 --         actor_id,
