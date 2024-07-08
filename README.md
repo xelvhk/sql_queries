@@ -6,3 +6,4 @@ This repository contains my solutions to practical problems in the course. The s
 ## Content:
 - Creating tables
 - Inserting values
+- Adding values from other table
