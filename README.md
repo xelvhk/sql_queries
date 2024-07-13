@@ -8,3 +8,4 @@ This repository contains my solutions to practical problems in the course. The s
 - Inserting values
 - Adding values from other table
 - CTE
+- Date and time types
